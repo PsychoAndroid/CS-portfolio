@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>How to About Me</title>
+    <style>
+        body {
+            background-color:silver;
+        }
+    
+        div {
+        Height:25px;
+        width:150px;
+        border:5px solid Orange;
+        padding:18px;
+        margin:0px;
+        }
+        
+    </style>
+</head>
+<body>
+    <font size="5">
+     <a href="index.html"> <li> About Me </li> </a>
+       </font>
+   <ul class=".navbar">
+       <link rel="stylesheet" href="Color.css" type="text/css" />
+    <h1>How Did I Make "About Me"</h1>
+<font size="5">
+    <h2 style="color:Navy Blue;font-size:30px">Part 1</h2>
+    </font>
+    <ol>
+        <div class=Heading>
+        <li style="color:Blue">Heading</li>
+        </div>
+        <h3 style="color:Crimson">This is Your Heading Example</h3>
+        <p>To make a heading go to next row right under <mark>&lt;body&gt; then type in &lt;h1&gt; and between &lt;h1&gt; &lt;h2&gt; type in whatever you want</mark>
+        and there you go you have a heading. Also I have to mention you can have multiple headers and its easy to do! 
+        To make anothe header all you have to do is replace the number right after the "h". You can put the header anywhere, right under the first
+        header, beside it, or over it. To change the color of the heading is between the h and the >. and <mark> type in style=color:"(Any color you want)";. This can
+        also apply to the margin. Right after the semi-colon you can type in margin-(This part is where you want to put the text,I.E. left,right, and center)right after you type in your margin 
+        type in a colon. Next type in the size and which is measured by px or pixels for example 45px.</mark></p>
+        <div class=Button>
+       <li style="color:Blue">Button</li>
+        </div>
+        <h4 id="myheader">Click the Change Text to see Some Magic</h4>
+        <button onclick="displayresults()">"Click me"</button>
+        <script>
+            function displayresults() {
+                document.getElementById("myheader").innerHTML="This is an example of the Change Text Button"
+            }
+        </script>
+        <p>Let me start by saying this, I love this button! Changing text is just plain funny and cool because you can put in whatever you want.
+        Anyways to make a button is kinda complicated. First you need to make a heading and a heading ID. between the number and the > type in 
+        <mark>id=(And of Course What you want to name it)</mark> then do what you do in any heading. Now to change the text. Its kinda hard to explain, but type in this
+         <mark>&lt;button onclick=&quot;displayresults()&quot;&gt;(Anything in here)&lt;/button&gt; Now you have to type in &lt;script&gt;</mark> next you have
+         to add this <mark>function displayresults() { document.getElementById(Heading ID).innerHTML=Anything you want in here}</mark> This whole part is to tell
+         the button to change text whenever its clicked.</p>
+        <div class=links>
+            
+        <li style="color:Blue;">Link to "How to Page" and "About Me" page</li>
+        </div>
+        <a href="index.html"<li>An example of a link to a page</li> </a>
+        <p>Links are really easy, links can be used to quickly get to a website with ease. For example the link I put was a link back 
+        to my "About Me" page. To make links are simple, start by typing <mark>&lt;a href&gt;</mark>. Okay wait a second what does &lt;a href&gt; mean? 
+        a href tells the code to link this page to here and if anyone clicks it, it will take them to the linked page. Anyways next you add
+        in qoutes the URL link,if you don't know where to find the URL, it's always found on top of the page. When thats done it should look
+        like this:<mark>&lt;a href=&quot;https://www.google.com/?safe=active&amp;ssui=on&quot;</mark>. Now if you want to rename the link to something like
+        "CLICK THIS SUPER DUPER AWESOME LINK" type in <mark>&lt;li&gt; and between the open and closed li type in whatever you want.</mark></p>
+       <div class=Background>
+        <li style="color:Blue;">Background Color</li>
+        </div>
+        <p>Do I really need an example of background, your looking at it right now! To make a background is easy, right after &lt;heading&gt;
+        press"enter" then type in &lt;style&gt; and now the style has been set to CSS, but first you need to type in"body then you need to put in a Curly Bracket(It looks like this { )
+        after that you move to the next line and type in <mark>background:(Any color can be entered in here);</mark>and you're done congratulation you have a background
+        </p>
+    </ol>
+
+    <h5 style="color:Navy Blue;font-size:35px"> Part 2 </h5>
+<ol>
+    <div class=List>
+    <li style="color:Blue;">List</li>
+    </div>
+    <ol>
+        <li>Example #1</li>
+        <li>Example #2</li>
+        <li>Example #3</li>
+    </ol>
+    <br>
+    <ul>
+        <li>Example #1</li>
+        <li>Example #2</li>
+        <li>Example #3</li>
+    </ul>
+    <p>A list can be used for many purposes in programming, but I used mine to show examples of things I like. The first thing you should know about a list
+    is, is it going to be ordered or unordered. Depending on 
+    what list you want, I.E. Ordered or Unordered list. <mark>For an order list type in &lt;ol&gt;; for an unordered type in &lt;ul&gt;.</mark>
+    You might ask what are the difference between an unordered list and a ordered list, the difference is simply one is numbered and other
+    isn't numbered. <mark>Anyways after you decided which list you want, go to the next line and type in &lt;li&gt;.
+    This will start your list, if you choose ol, when you type in something between the opening and closing li, it will be numbered.
+    If you choose ul, it will instead replace the number with a bullet point, but everything else will be the same.</mark></p>
+    <div class="Border">
+    <li style="Color:Blue;">Border</li>
+    </div>
+    <p>Do you see that, the Crimson colored rectangle. That is a border I put around everything important to HTML. Borders are really important
+    for organizing things in a page. Just look at any website it will have, at least two borders. <mark>To make a border will require our friend
+    &lt;style&gt;. Just like Background Color move to the next line, but this time type in div, div means divide and div can be used for other things,but we'll just use it to make a table. Make sure you
+    add a curly bracket or else your commands won't work. Now you can decided what how tall the border is,the width, the margin, the padding, and the border lines.</mark> However
+    be careful if you make your border too big or too small it can mess up your text. <mark>Anyways to add a border to text type in &lt;div&gt; 
+    and between the > give the border a class like "Example",Border, or anything in general. To close the border just type in &lt;/div&gt;.</mark> </p>
+    <div class=Paragraphs>
+    <li style="Color:Blue;">Paragraph</li>
+    </div>
+    <p>Hey you're Looking at ONE!</p>
+    <p>Its so simple to make a paragraph in HTML! To make a paragraph just type in &lt;p&gt; and their you go. Between the &lt;p&gt; and &lt;/p&gt; type in whatever
+    you want. Now that tutorial maybe short on how to make a paragraph in HTML, but why do we need it? Well, its simple the key thing 
+    to a website is text. If you don't have text on a website it'll be nothing!</p>
+    <div class=Images>
+    <li style="Color:Blue;">Images</li>
+    </div>
+    <img src="https://img.buzzfeed.com/buzzfeed-static/static/enhanced/web04/2011/4/29/19/enhanced-buzz-17652-1304121122-23.jpg" height="320px"
+    <br>
+    <p>I just like importing images, as you saw on my "About Me" page. Its quite simple type in <mark>&lt;img&gt; and between img and > type in
+    =src"(Any link in here)</mark>. If you want to change the width or height press space and type in width or height. <mark>In qoutes
+    type in "(number of px)" and there you go, your image's height and width changed.</mark></p>
+    
+</ol>
+</body>
+</html>
